@@ -89,8 +89,8 @@ else:
 print("NEXT QUESTION")
 time.sleep(2)
 
-question6 = input("If today is December, 6 month from now is: ").upper()
-if question6 == "MARCH":
+question6 = input("If the day before two days ago is Monday, What is today ").upper()
+if question6 == "Thursday":
     score += 1
     print(f"CORRECT!!, score = {score}")
 else:
